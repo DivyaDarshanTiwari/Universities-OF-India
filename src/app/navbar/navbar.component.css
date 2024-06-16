@@ -1,0 +1,12 @@
+.mat-toolbar{
+    background-color: #e66465;
+    color: white;
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+  .fontawesomesvg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+  }

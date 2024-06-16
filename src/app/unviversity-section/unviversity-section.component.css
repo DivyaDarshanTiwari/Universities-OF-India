@@ -4,6 +4,7 @@
     justify-content:space-around;
     align-items:center;
     text-align: center;
+    background-color: #e66465;
 }
 
 .example-card{
@@ -13,12 +14,12 @@
 .box{
     margin: 0px 5px;
     border-radius: 8%;
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    background-image: linear-gradient( #ffecd2 0%, #fcb69f 50%, #e66465 100%);
     width: 20%;
 }
 
 .header
 {
-    display: table-column;
+    display: table-column-group;
 
 }

@@ -1,5 +1,4 @@
 
-
 <section class="flex"> 
 <section *ngFor="let data of userdata" class="box">
     <mat-card class="example-card " appearance="outlined">
@@ -8,13 +7,12 @@
           <mat-card-title>{{data.name}}</mat-card-title>
           <mat-card-subtitle>{{ data['state-province'] }},{{data.country}}</mat-card-subtitle>
         </mat-card-header>
-        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu" style="height: auto; width: 100%;">
         <mat-card-content>
           <p *ngFor="let webPage of data.web_pages">
             Site:<a [href]="webPage">{{webPage}}</a>
           </p>
         </mat-card-content>
-          <button mat-button>Learn More</button>
+          <span >Learn More</span>
     </mat-card>
 </section>
       
