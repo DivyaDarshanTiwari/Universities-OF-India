@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    text-align: center;
+}
+
+.example-card{
+    display: inline;
+}
+
+.box{
+    margin: 0px 5px;
+    border-radius: 8%;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    width: 20%;
+}
+
+.header
+{
+    display: table-column;
+
+}
