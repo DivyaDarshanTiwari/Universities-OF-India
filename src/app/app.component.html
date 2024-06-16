@@ -1,3 +1,7 @@
-
-<app-navbar/>
+@defer () {
+    <app-navbar/>
 <app-unviversity-section/>
+}
+@placeholder (minimum 500ms) {
+    <p>Loading...</p>
+  }

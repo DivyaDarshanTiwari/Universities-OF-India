@@ -15,7 +15,7 @@ import {MatCardModule} from '@angular/material/card';
   templateUrl: './unviversity-section.component.html',
   styleUrl: './unviversity-section.component.css'
 })
-export class UnviversitySectionComponent {
+export class UnviversitySectionComponent implements OnInit{
 
   userdata: any;
 
