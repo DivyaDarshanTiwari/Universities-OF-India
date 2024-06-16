@@ -1,9 +1,13 @@
-
+<section style="background-color: #e66465; padding: 30px;">
+    <form>
+      <input type="text" placeholder="Filter by city" #filter/>
+      <button class="primary" type="button" >Search</button>
+    </form>
+  </section>
 <section class="flex"> 
 <section *ngFor="let data of userdata" class="box">
     <mat-card class="example-card " appearance="outlined">
-        <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-header >
           <mat-card-title>{{data.name}}</mat-card-title>
           <mat-card-subtitle>{{ data['state-province'] }},{{data.country}}</mat-card-subtitle>
         </mat-card-header>

@@ -9,7 +9,7 @@ import {MatButtonModule} from '@angular/material/button';
   imports: [MatToolbarModule,MatIconModule,MatDividerModule,MatButtonModule],
   template: `
       <mat-toolbar color="primary">
-    <span>Bit-Coin Desu</span>
+    <span>Universities of India Desu</span>
     <div class="spacer"></div>
       <a mat-button>Home</a>
       <a mat-button>About</a>
