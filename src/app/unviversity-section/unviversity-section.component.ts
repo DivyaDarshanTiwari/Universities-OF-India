@@ -4,7 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-unviversity-section',
   standalone: true,
   imports: [],
-  templateUrl: './unviversity-section.component.html',
+  template: `
+    <p>
+      unviversity-section works!
+    </p>
+  `,
   styleUrl: './unviversity-section.component.css'
 })
 export class UnviversitySectionComponent {

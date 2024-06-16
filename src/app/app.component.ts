@@ -9,7 +9,8 @@ import { UnviversitySectionComponent } from './unviversity-section/unviversity-s
   standalone: true,
   imports: [RouterOutlet,NavbarComponent,UnviversitySectionComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+
 })
 export class AppComponent {
   title = 'Universities-OF-India';
